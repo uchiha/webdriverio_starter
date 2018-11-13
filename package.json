@@ -1,0 +1,24 @@
+{
+  "name": "webdriverio_starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "tsc && wdio wdio.conf.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cucumber": "^5.0.2",
+    "multiple-cucumber-html-reporter": "^1.11.4",
+    "wdio-multiple-cucumber-html-reporter": "^0.3.2",
+    "wdio-spec-reporter": "^0.1.5",
+    "webdriverio": "^4.14.0"
+  },
+  "devDependencies": {
+    "@types/cucumber": "^4.0.4",
+    "@types/webdriverio": "^4.13.0",
+    "wdio-cucumber-framework": "^2.2.8",
+    "wdio-mocha-framework": "^0.6.4"
+  }
+}

@@ -1,0 +1,9 @@
+transpiled/*
+node_modules/*
+package-lock.json
+*.html*
+.grunt
+.tscache
+src/*.baseDir.*
+tmp/*
+target/*
