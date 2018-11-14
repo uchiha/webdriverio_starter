@@ -8,15 +8,14 @@ Given(/^I browse to the preferred search engine$/, async () => {
 });
 
 When(/^I searched for "([^"]*)"$/, (searchWord) => {
-    // browser.setValue("input[name='q']", searchWord);
     if(searchHomes == null || searchHomes == undefined){
         searchHomes = new SearchHome();
         console.log("----> yep, its either undefined or null");
     } else{
         console.log("----> no worries, its defined already!");
     }
-    // searchPage = new SearchHome();
-    searchHomes.searchForInput(searchWord);
+    
+    searchHomes.searchForTheKeyword(searchWord);
     
 });
 
